@@ -16,6 +16,10 @@
     <style name="Theme.MyApplication.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
     </style>
     <style name="Theme.MyApplication.AppBarOverlay"
         parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
